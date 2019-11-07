@@ -1,5 +1,17 @@
 package com.nshmura.recyclertablayout.demo;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.nshmura.recyclertablayout.demo.autoselect.DemoAutoSelectActivity;
 import com.nshmura.recyclertablayout.demo.basic.DemoBasicActivity;
 import com.nshmura.recyclertablayout.demo.customview01.DemoCustomView01Activity;
@@ -9,17 +21,6 @@ import com.nshmura.recyclertablayout.demo.rtl.DemoRtlActivity;
 import com.nshmura.recyclertablayout.demo.tabonscreenlimit.DemoTabOnScreenLimitActivity;
 import com.nshmura.recyclertablayout.demo.tabscrolldisabled.DemoTabScrollDisabledActivity;
 import com.nshmura.recyclertablayout.demo.years.DemoYearsActivity;
-
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
